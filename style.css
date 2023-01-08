@@ -1,243 +1,240 @@
-*{
+* {
     margin: 0;
 }
-nav{
+ /* start nav section */
+nav {
     background-color: rgba(128, 128, 128, 0.527);
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 18px 30px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     list-style: none;
 }
- nav li{
+
+nav li {
     margin-left: 20px;
     font-size: 20px;
- }
- .nav-p{
+}
+
+.nav-p {
     color: aqua;
     margin-top: 14px;
     font-weight: bold;
     font-size: 20px;
- }
- .navp{
+}
+
+.navp {
     display: flex;
- }
- .banner{
+}
+ /* end nav section */
+
+ /* start banner section */
+.banner {
     width: 100%;
     height: 100vh;
-    background-image: url("./asset/image/background.jpg") , linear-gradient(rgba(0, 0, 0, 0.295) , rgba(0,0,0,0.4));
+    background-image: url("./asset/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.4));
     background-blend-mode: overlay;
     background-position: center;
 
- }
- .banner-titlee{
+}
+
+.banner-titlee {
     color: red;
- }
- .banner-title{
+}
+
+.banner-title {
     text-align: center;
     justify-content: center;
     padding-top: 200px;
     font-size: 83px;
     font-weight: 800;
     color: white;
- }
- .banner-description{
-        text-align: center;
-        width: 100%;
-        margin: auto;
-        font-size: 21px;
-        font-weight: 500;
-        color: white;
-        margin: 15px 0;
- }
- .banner-btn{
+}
+
+.banner-description {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    font-size: 21px;
+    font-weight: 500;
+    color: white;
+    margin: 15px 0;
+}
+
+.banner-btn {
     display: flex;
     justify-content: center;
     gap: 10px;
-    
- }
- .banner-btn-1{
+
+}
+
+.banner-btn-1 {
     background-color: red;
     color: white;
     font-size: 15px;
     padding: 15px 30px;
     border: none;
- }
- .banner-btn-2{
+}
+
+.banner-btn-2 {
     background-color: white;
     color: black;
     font-size: 15px;
     padding: 15px 30px;
     border: none;
- }
-.services{
-    background-color: black;
+}
+ /* end banner section */
+
+
+
+
+/* start service section */
+.services {
+
+    background-image: url(./asset/image/footer-bg.png), linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.89));
+    background-blend-mode: overlay;
     width: 100%;
-    height: 90vh;
+    height: 115vh;
     color: whitesmoke;
     display: flex;
 
-    
-}
-.services-container{
-  padding-left: 40px;
-  padding-top: 100px;
-
-
 
 }
-.services-list-btn{
+
+.services-container {
+    padding-left: 40px;
+    padding-top: 100px;
+
+
+
+}
+
+.services-list-btn {
     background-color: white;
     color: darkgrey;
     padding: 15px 36px;
     border-radius: 35px;
     font-size: 16px;
     margin-top: 20px;
-    
+
 }
-.services-title{
+
+.services-title {
     font-size: 40px;
     margin: 20px 0;
     color: darkgray;
 }
-.services-title-span{
+
+.services-title-span {
     color: red;
 }
-.services-description{
+
+.services-description {
     font-size: 20px;
     color: darkgray;
     margin-bottom: 25px;
 }
-.services-list{
+
+.services-list {
     font-size: 18px;
     margin-bottom: 20px;
     color: darkgray;
 }
-.author{
+
+.author {
     display: flex;
     align-items: center;
 }
-.author-div{
+
+.author-div {
     display: flex;
     align-items: center;
     gap: 10px;
     border-right: solid red 2px;
     margin-left: 60px;
     padding-right: 100px;
-    
+
 }
-.author-image{
+
+.author-image {
     border-radius: 50%;
     height: 100px;
     width: 100px;
 }
-.author-btn-div{
+
+.author-btn-div {
     margin-left: 20px;
-    
+
 }
-.author-btn{
-   background-color: aliceblue;
-   color: red;
-   border-radius: 30px;
-   padding: 20px 30px;
+
+.author-btn {
+    background-color: aliceblue;
+    color: red;
+    border-radius: 30px;
+    padding: 20px 30px;
 }
-.services-container-blog{
-   
+
+
+
+
+
+.services-container-blog {
+
     width: 50%;
-    
-   
+
+
 }
 
-
-
-.blog-img{
-      margin: 50px 25px;
-      width: 50%;
+.services-blog {
+    margin-top: 90px;
 }
-/*
-.servic-up{
+
+.service-up {
     display: flex;
-    padding-left: 40px;
-    padding-top: 60px;
-    gap: 20px;
-    padding-right: 20px;
+    justify-content: center;
+    margin-top: 3px;
 }
-.servic-down{
+
+.service-down {
     display: flex;
-    padding-left: 40px;
-    padding-top: 60px;
-    padding-right: 20px;
-    gap: 20px;
+    justify-content: center;
 }
-.servic-item{
-    padding: 10px 20px;
-    background-color:white;
-    box-shadow: 4px 4px 8px gray;
-    width: 300px;
-    height: 300px;
-    text-align:center;
-    color: black;
-    border-radius: 10px;
-    margin: 5px;
-}*/
 
-
-.services-container-blog{
-    background-color: rgb(0, 0, 0);
-   
-    
-}
-.service-item{
-    background-color:white;
+.service-item {
+    background-color: aliceblue;
     color: black;
     box-shadow: 4px 4px 4px gray;
-    height: 230px;
-    width: 230px;
-    margin-top: 10px;
-    border-radius: 10px;
+    border-radius: 12px;
+    width: 250px;
+    height: 250px;
+    margin: 7px;
+
 }
-.bar{
-    height: 100px;
-    width: 100px;
-    margin-top: 35px;
-    margin-left: 50px;
-}
-.ser{
-    padding-left: 30px;
-}
-/* .services{
-    align-items: center;
-    padding-left: 50px;
-    
-} */
-.service-left{
-    margin-top: 150px;
-}
-.service-right{
-    margin-top: 150px;
-    margin-left: 10px;
-}
-.barh3{
+
+.services-blog-title {
+    font-size: 22px;
     text-align: center;
-    padding-top: 10px;
+    margin-top: 6px;
 }
 
+.blog-imag {
+    height: 150px;
+    width: 150px;
+    padding-left: 50px;
+    padding-top: 30px;
 
-.span{
-    height: 20vh;
-    width: 100%;
-    background-color: black;
 }
+/* end service section */
 
+/* start call now/app section */
+.call-now-container {
 
-
-.call-now-container{
-     
-     border-radius: 12px;
-     width: 80%;
+    border-radius: 12px;
+    width: 80%;
     height: 180px;
     background-color: red;
     margin: auto;
@@ -246,100 +243,113 @@ nav ul{
 }
 
 
-.call-now{
+.call-now {
     display: flex;
     align-items: center;
     color: white;
 }
 
-.call-img{
+.call-img {
     height: 150px;
     width: 150px;
     margin-top: 15px;
 }
-.call-icon{
+
+.call-icon {
     display: flex;
     color: white;
 }
-.call-now h1{
+
+.call-now h1 {
     padding-top: 20px;
     font-size: 25px;
     border-right: solid black 1px;
     margin-right: 15px;
     margin-top: 20px;
 }
-.call-now-btn{
+
+.call-now-btn {
     margin: 30px;
     border-radius: 17px;
     border: none;
     height: 50px;
     width: 180px;
 }
-.blog{
+/* end call now/app section */
+
+
+/* start blog section */
+.blog {
     width: 100%;
     height: 100vh;
     margin-bottom: 80px;
-    
+
 }
-.blog-info{
-     text-align: center;
-     padding-top: 90px
+
+.blog-info {
+    text-align: center;
+    padding-top: 90px
 }
-.blog-title{
-    font-size: 60px; 
+
+.blog-title {
+    font-size: 60px;
     text-align: center;
 
 }
-.blog-description{
+
+.blog-description {
     font-size: 20px;
 }
 
-.blog-container{
+.blog-container {
     display: flex;
     justify-content: space-around;
-    
-    
+
+
 }
 
 
-.blog-items{
+.blog-items {
     margin-top: 50px;
     background-color: rgb(255, 255, 255);
     height: 450px;
     width: 400px;
     text-align: center;
-    border-radius: 20px;   
+    border-radius: 20px;
     box-shadow: 10px 10px 10px gray;
     margin-bottom: 50px;
 }
 
-.blog-image{
+.blog-image {
     height: 250px;
     width: 400px;
-    border-radius: 20px 20px 0 0; 
+    border-radius: 20px 20px 0 0;
 }
+/* end blog section */
 
+/* start footer section */
+.footer {
 
-.footer{
-    
-    background-image: url('./asset/image/footer-bg.png'), linear-gradient(rgb(0, 0, 0) 0, rgba(0, 0, 0, 0.911) 100%) ;
+    background-image: url('./asset/image/footer-bg.png'), linear-gradient(rgb(0, 0, 0) 0, rgba(0, 0, 0, 0.911) 100%);
     background-blend-mode: overlay;
     display: flex;
-   
+
     width: 100%;
     height: 70vh;
-   color: white;
+    color: white;
     justify-content: center;
     align-items: center;
 }
 
-.footer-title{
-   padding-bottom: 20px;
+.footer-title {
+    padding-bottom: 20px;
 }
 
-.footer-item h3{
+.footer-item h3 {
     font-size: 15px;
 }
-.footer-item{
+
+.footer-item {
     margin: 30px;
 }
+/* end footer section */
