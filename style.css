@@ -353,3 +353,12 @@ nav li {
     margin: 30px;
 }
 /* end footer section */
+
+.copyright{
+    margin-left: 140px;
+    margin-top: -70px;
+    width: 80%;
+    text-align: center;
+    color: aliceblue;
+
+}
